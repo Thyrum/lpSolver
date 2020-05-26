@@ -129,7 +129,8 @@ supportsColor() noexcept
 			"rxvt",
 			"screen",
 			"vt100",
-			"xterm"
+			"xterm",
+			"alacritty",
 		};
 		const char *env_p = std::getenv("TERM");
 		if (env_p == nullptr)
